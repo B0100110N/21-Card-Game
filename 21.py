@@ -9,6 +9,7 @@ while True:
     print("🃏 ♣ ♠ ♥ ♦ Welcome to 21! ♦ ♥ ♠ ♣ 🃏")
     print('\n')
     
+    
     userInput = input("Are you ready to begin? Please type 'yes' or 'no': ")
     if userInput.lower().startswith('y'):
         break
@@ -25,9 +26,9 @@ while cardAmount != 21: #maybe while cardAmount < 0
     print('\n')
     print("Press 'e' to exit. ")
 
+    
     if dealUser.lower().startswith('d'):
 
-    
         if randomCard == "♣ clubAce ♣":
             print("You drew an Ace of Club's.")
             clubAceInput = input("Would you like to keep 1 or 11?: ")
@@ -71,6 +72,7 @@ while cardAmount != 21: #maybe while cardAmount < 0
         elif randomCard == "♣K clubKing ♣K":
             print("You drew a King of Club's.")
             cardAmount += 10
+            
             
         elif randomCard == "♥ heartAce ♥":   
             print("You drew an Ace of Heart's.")
@@ -116,6 +118,7 @@ while cardAmount != 21: #maybe while cardAmount < 0
             print("You drew a King of Heart's.")
             cardAmount += 10
 
+            
         elif randomCard == "♠ spadeAce ♠":   
             print("You drew an Ace of Spade's.")
             spadeAceInput = input("Would you like to keep 1 or 11?: ")
@@ -205,10 +208,7 @@ while cardAmount != 21: #maybe while cardAmount < 0
             print("You drew a King of Diamond's.")
             cardAmount += 10    
                 
-        elif dealUser.lower().startswith('e'):
-            exit()
-
-
+                
         if cardAmount > 21:
             print('\n')
             print("You lose!")
