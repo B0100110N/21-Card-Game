@@ -114,7 +114,7 @@ while cardAmount != 21:
         elif randomCard == "♥Q heartQueen ♥Q":
             print("You drew a Queen of Heart's.")
             cardAmount += 10
-        elif randomCard == "♥K heartKing ♣K":
+        elif randomCard == "♥K heartKing ♥️K":
             print("You drew a King of Heart's.")
             cardAmount += 10
 
