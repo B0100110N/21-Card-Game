@@ -19,7 +19,7 @@ while True:
 
 
 cardAmount = 0
-while cardAmount != 21: #maybe while cardAmount < 0
+while cardAmount != 21:
 
     randomCard = random.choice(["♣ clubAce ♣", "♣ clubTwo ♣ ", "♣ clubThree ♣ ", "♣ clubFour ♣", "♣ clubFive ♣", "♣ clubSix ♣", "♣ clubSeven ♣", "♣ clubEight ♣", "♣ clubNine ♣", "♣ clubTen ♣", "♣J clubJack ♣J", "♣Q clubQueen ♣Q", "♣K clubKing ♣K" "♥ heartAce ♥", "♥ heartTwo ♥", "♥ heartThree  ♥", "♥ heartFour ♥", "♥ heartFive ♥", "♥ heartSix ♥", "♥ heartSeven ♥", "♥ heartEight ♥", "♥ heartNine ♥", "♥ heartTen ♥", "♥J heartJack ♥J", "♥Q heartQueen ♥Q", "♥K heartKing ♥K" "♠ spadeAce ♠", "♠ spadeTwo ♠", "♠ spadeThree ♠", "♠ spadeFour ♠", "♠ spadeFive ♠", "♠ spadeSix ♠", "♠ spadeSeven ♠", "♠ spadeEight ♠", "♠ spadeNine ♠", "♠ spadeTen ♠", "♠J spadeJack ♠J", "♠Q spadeQueen ♠Q", " ♠K spadeKing ♠K" "♦ diamondAce ♦", "♦ diamondTwo ♦", "♦ diamondThree ♦", "♦ diamondFour ♦", "♦ diamondFive ♦", "♦ diamondSix ♦", "♦ diamondSeven ♦", "♦ diamondEight ♦", "♦ diamondNine ♦", "♦ diamondTen ♦", "♦J diamondJack ♦J", "♦Q diamondQueen ♦Q", "♦K diamondKing ♦K"])
     dealUser = input("Type 'deal' to be dealt a card: ")
